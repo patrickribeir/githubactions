@@ -6,7 +6,7 @@ on:
      - main
 
 jobs: 
- say-hello:
+  say-hello:
    runs-on: ubuntu:latest
    steps:
      - name: exibir menssagem no log
